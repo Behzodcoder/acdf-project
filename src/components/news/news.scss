@@ -1,10 +1,19 @@
 .news-section {
     padding-left: 248px;
     padding-top: 84px;
+    // margin: 0 0 16px;
+    h3 {
+        font-family: "MixtaPro-Light", sans-serif;
+        font-size: 50px;
+        line-height: 55px;
+        font-weight: normal;
+        margin-bottom: 16px;
+    }
     .line {
         width: 944px;
         height: 1px;
         background-color: #111;
+        // margin-top: -20px;
     }
 }
 
@@ -16,9 +25,9 @@
         display: flex;
         gap: 24px;
 
-        img:hover {
-            transform: translate(-50%, -50%) scale(1.03);
-        }
+        // img:hover {
+        //     transform: translate(-50%, -50%) scale(1.03);
+        // }
         .tovoq-text {
             .newsBlack {
                 width: 81px;
@@ -27,35 +36,39 @@
                 border: 1px solid #111;
                 background: #111;
                 color: #fff;
+                font-family: "Inter-Bold", sans-serif;
+                font-weight: 800;
                 font-size: 12px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 15.6px; /* 130% */
+                line-height: 15.6px;
                 text-transform: uppercase;
             }
 
             .newsDate {
                 display: inline-block;
                 margin-left: 32px;
+                font-family: 'Inter-Regular', sans-serif;
                 font-size: 15px;
                 line-height: 19.5px;
             }
 
             .newsTitle {
+                font-family: 'MixtaPro-Light', sans-serif;
                 font-size: 35px;
+                font-weight: normal;
                 line-height: 45.5px;
                 margin: 16px 0;
                 text-decoration: underline solid transparent;
-                text-decoration-thickness: 2px;
+                // text-decoration-thickness: 2px;
                 text-underline-offset: 4px;
                 transition: text-decoration 0.3s ease;
             }
 
             .newsTitle:hover {
-                text-decoration: underline solid black
+                text-decoration: underline solid black;
             }
             .readMore {
                 font-size: 15px;
+                font-family: 'Inter-Regular', sans-serif;
                 line-height: 19.5px;
                 margin-top: 16px;
                 text-decoration: underline;
@@ -64,4 +77,24 @@
             }
         }
     }
+}
+
+.showAll {
+    text-align: center;
+    background: #0C2b3E;
+    color: #fff;
+    border-color: #0C2b3E;
+    display: inline-block;
+    margin: 8px 0;
+    margin-left: 602px;
+    margin-top: 40px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    padding: 7px 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Inter-Regular', sans-serif;
+    font-size: 15px;
+    line-height: 19.5px;
+    cursor: pointer;
 }
