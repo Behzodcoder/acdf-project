@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/header/header'
+import News from './components/news/news'
 import Purpose from './components/purpose/purpose'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <Purpose/>
+      <News/>
     </>
   )
 }
