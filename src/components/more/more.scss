@@ -1,0 +1,39 @@
+.knowMore {
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    padding-top: 241px;
+
+    .bgGumbaz {
+        position: absolute;
+
+        img {
+            // width: 100vh;
+            // height: 907px;
+        }
+    }
+
+    h2 {
+        color: #111111;
+        font-family: "MixtaPro-Light";
+        font-size: 75px;
+        font-weight: normal;
+        line-height: 75px;
+        margin: 0 0 96px;
+        position: relative;
+    }
+
+    .knowMoreText {
+        width: 820px;
+        height: 257px;
+        padding-top: 108px;
+        font-family: "Inter-Light", sans-serif;
+        font-size: 22px;
+        margin: 0 auto;
+        line-height: 25.2px;
+        position: relative;
+        padding-bottom: 439px;
+    }
+}

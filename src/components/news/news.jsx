@@ -19,7 +19,7 @@ function News() {
             <span className="newsBlack">НОВОСТИ</span>
             <span className="newsDate">24 Июль 2023</span>
             <h3 className="newsTitle">
-              Шохрух Рахимов принят в престижную стипендиальную программу Homo
+              Шохрух Рахимов принят в престижную <br /> стипендиальную программу Homo
               Faber
             </h3>
             <p className="readMore">Читать далее</p>
