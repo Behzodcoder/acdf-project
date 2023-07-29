@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'MixtaPro-light';
+  src: url(./assets/fonts/MixtaPro-Light.ttf);
+}
+
 *,
 *::before,
 *::after {
@@ -7,7 +12,7 @@
 }
 
 body {
-  font-family: 'Nanum Myeongjo', serif;
+  overflow-x: hidden;
 }
 
 ul {
