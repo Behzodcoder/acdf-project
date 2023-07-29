@@ -24,10 +24,13 @@
     .tovoq-news {
         display: flex;
         gap: 24px;
+        
 
-        // img:hover {
-        //     transform: translate(-50%, -50%) scale(1.03);
-        // }
+        img:hover {
+            // transform: translate(50%, 50%) scale(1.03);
+            cursor: pointer;
+            
+        }
         .tovoq-text {
             .newsBlack {
                 width: 81px;
@@ -76,6 +79,12 @@
                 text-decoration-thickness: 1px;
             }
         }
+        
+    }
+
+    .tovoq-news:hover {
+        text-decoration: underline solid black;
+        cursor: pointer;
     }
 }
 
@@ -97,4 +106,8 @@
     font-size: 15px;
     line-height: 19.5px;
     cursor: pointer;
+}
+
+.showAll:hover {
+    background-color: #395665;
 }

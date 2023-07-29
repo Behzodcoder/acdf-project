@@ -13,7 +13,6 @@ function More() {
           </h2>
           <div className="bgGumbaz">
             <img className="gumbaz" src={gumbaz} alt="" />
-            {/* <img className="gumbazTwo" src={gumbazTwo} alt="" /> */}
           </div>
         </div>
         <div className="knowMoreText">

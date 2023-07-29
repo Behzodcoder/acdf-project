@@ -8,7 +8,9 @@ import "./news.scss";
 function News() {
   return (
     <div className="container">
-      <div className="news-section">  {/* tovoq */}
+      <div className="news-section">
+        {" "}
+        {/* tovoq */}
         <h3>Наши последние новости</h3>
         <div className="line"></div>
       </div>
@@ -19,15 +21,17 @@ function News() {
             <span className="newsBlack">НОВОСТИ</span>
             <span className="newsDate">24 Июль 2023</span>
             <h3 className="newsTitle">
-              Шохрух Рахимов принят в престижную <br /> стипендиальную программу Homo
-              Faber
+              Шохрух Рахимов принят в престижную <br /> стипендиальную программу
+              Homo Faber
             </h3>
             <p className="readMore">Читать далее</p>
           </div>
         </div>
       </div>
 
-      <div className="news-section">   {/* medal */}
+      <div className="news-section">
+        {" "}
+        {/* medal */}
         <div className="line"></div>
       </div>
       <div className="allNews">
@@ -37,7 +41,8 @@ function News() {
             <span className="newsBlack">НОВОСТИ</span>
             <span className="newsDate">22 Июнь 2023</span>
             <h3 className="newsTitle">
-              18 июня 2023 года состоялся<br /> Международный ультрамарафон ZAAMIN <br />
+              18 июня 2023 года состоялся
+              <br /> Международный ультрамарафон ZAAMIN <br />
               ULTRA 2023
             </h3>
             <p className="readMore">Читать далее</p>
@@ -45,7 +50,9 @@ function News() {
         </div>
       </div>
 
-      <div className="news-section">   {/* marafon */}
+      <div className="news-section">
+        {" "}
+        {/* marafon */}
         <div className="line"></div>
       </div>
       <div className="allNews">
@@ -55,14 +62,17 @@ function News() {
             <span className="newsBlack">НОВОСТИ</span>
             <span className="newsDate">12 Июнь 2023</span>
             <h3 className="newsTitle">
-            Фонд развития культуры и искусства <br /> Узбекистана объявляет о проведении <br /> ультрамарафона ZAAMIN ULTRA 2023
+              Фонд развития культуры и искусства <br /> Узбекистана объявляет о
+              проведении <br /> ультрамарафона ZAAMIN ULTRA 2023
             </h3>
             <p className="readMore">Читать далее</p>
           </div>
         </div>
       </div>
 
-      <div className="news-section">   {/* armin */}
+      <div className="news-section">
+        {" "}
+        {/* armin */}
         <div className="line"></div>
       </div>
       <div className="allNews">
@@ -77,7 +87,9 @@ function News() {
         </div>
       </div>
 
-      <div className="news-section">   {/* gustav */}
+      <div className="news-section">
+        {" "}
+        {/* gustav */}
         <div className="line"></div>
       </div>
       <div className="allNews">
@@ -86,12 +98,17 @@ function News() {
           <div className="tovoq-text">
             <span className="newsBlack">НОВОСТИ</span>
             <span className="newsDate">06 Июнь 2023</span>
-            <h3 className="newsTitle">Новая мультимедийная выставка «Густав <br />Климт и Великие импрессионисты»</h3>
+            <h3 className="newsTitle">
+              Новая мультимедийная выставка «Густав <br />
+              Климт и Великие импрессионисты»
+            </h3>
             <p className="readMore">Читать далее</p>
           </div>
         </div>
       </div>
-      <div className="news-section">   {/* gustav */}
+      <div className="news-section">
+        {/* {" "} */}
+        {/* gustav */}
         <div className="line"></div>
       </div>
 

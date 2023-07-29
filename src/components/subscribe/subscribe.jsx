@@ -9,10 +9,6 @@ function Subscribe() {
             <div className="subscribe">
                 <div className="subscribe-text">
                     <h2>Подпишитесь на нашу рассылку, <br />чтобы быть постоянно в курсе</h2>
-                    <div className="shapes">
-                    {/* <img className="grey" src={grey} alt="" /> */}
-                    <img className="purple" src={purple} alt="" />
-                </div>
                 </div>
                 
                 <div className="inp">

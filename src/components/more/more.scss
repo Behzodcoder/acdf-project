@@ -9,9 +9,11 @@
     .bgGumbaz {
         position: absolute;
 
-        img {
-            // width: 100vh;
-            // height: 907px;
+        .gumbaz {
+            position: relative;
+            bottom: 270px;
+            // width: 100%;
+            // height: 100%;
         }
     }
 
@@ -23,6 +25,7 @@
         line-height: 75px;
         margin: 0 0 96px;
         position: relative;
+        z-index: 1;
     }
 
     .knowMoreText {
