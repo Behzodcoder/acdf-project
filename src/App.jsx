@@ -2,6 +2,7 @@ import './App.css'
 import Footer from './components/footer/footer'
 import Gallery from './components/gallery/gallery'
 import Header from './components/header/header'
+import Examples from './components/modal/modal'
 import More from './components/more/more'
 import News from './components/news/news'
 import Purpose from './components/purpose/purpose'
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    {/* <Examples/> */}
       <Header/>
       <Purpose/>
       <News/>
