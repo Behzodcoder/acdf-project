@@ -1,0 +1,31 @@
+.socials {
+    width: 210px;
+    height: 35px;
+    // background-color: aqua;
+    .tg {
+        width: 30px;
+        height: 30px;
+        margin-right: 16px;
+        filter: invert(1);
+    }
+    .linked {
+        width: 30px;
+        height: 30px;
+        margin-right: 16px;
+    }
+    .face {
+        width: 30px;
+        height: 30px;
+        margin-right: 16px;
+    }
+    .insta {
+        width: 30px;
+        height: 30px;
+        margin-right: 16px;
+    }
+    .youtube {
+        width: 30px;
+        height: 30px;
+        // margin-right: 40px;
+    }
+}

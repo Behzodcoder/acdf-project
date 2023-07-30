@@ -6,6 +6,7 @@ import Examples from './components/modal/modal'
 import More from './components/more/more'
 import News from './components/news/news'
 import Purpose from './components/purpose/purpose'
+import Socials from './components/socials/socials'
 import Subscribe from './components/subscribe/subscribe'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <More/>
       <Gallery/>
       <Subscribe/>
+      {/* <Socials/> */}
       <Footer/>
     </>
   )
