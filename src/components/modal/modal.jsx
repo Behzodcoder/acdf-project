@@ -33,7 +33,6 @@ export default class Examples extends Component {
   render() {
     return (
       <section>
-        {/* <h1>МЕНЮ</h1> */}
         <input
           className="menu"
           type="button"
