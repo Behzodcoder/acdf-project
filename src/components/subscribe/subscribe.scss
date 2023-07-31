@@ -1,19 +1,30 @@
 .subscribe {
     position: relative;
-    padding-top: 355px;
+    padding-top: 55px;
 
     &::before {
         content: "";
         position: absolute;
-        left: 465px;
-        bottom: -102px;
+        left: 650px;
+        bottom: -40px;
         width: 140px;
         height: 140px;
-        background-color: black;
+        background-color: #C1C1C1;
     }
 
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     left: 720px;
+    //     bottom: 30px;
+    //     width: 680px;
+    //     height: 200px;
+    //     background-color: #EAD7D7;
+    // }
+
     .subscribe-text {
-        margin-bottom: 66px;
+        
+        margin-bottom: 120px;
 
         h2 {
             font-family: "MixtaPro-Light";
@@ -25,33 +36,29 @@
             width: 768px;
             margin: 0 auto;
             z-index: 2;
-        }
-        .shapes {
-            position: absolute;
-            display: inline-block;
-
-            .grey {
-                padding: 0 350px;
-            }
-            .purple {
-                padding-left: 530px;
-            }
+            top: -133px;
         }
     }
 
     .inp {
         // margin-bottom: 55px;
-        position: relative;
+        position: absolute;
+        left: 715px;
+        bottom: 30px;
+        // top: 250px;
+        width: 680px;
+        height: 200px;
+        background-color: #EAD7D7;
         input {
-            width: 35%;
+            width: 68%;
             border: none;
             outline: none;
             border-bottom: 1px solid #0c2b3e;
             color: #111;
             font-family: "Inter-Light";
             font-size: 26px;
-            margin-left: 540px;
-            margin-top: 55px;
+            margin-left: 24px;
+            margin-top: 145px;
             padding-bottom: 4px;
             background-color: transparent;
         }
@@ -69,6 +76,10 @@
             border: 1px solid transparent;
             padding: 7px 30px;
             text-transform: uppercase;
+            // z-index: 15;
+        }
+        button:hover {
+            background-color: #395665;
         }
     }
 }

@@ -3,6 +3,7 @@ import {useState, useEffect} from 'react'
 import logo1 from "../../assets/images/logo-ru.svg";
 import logo2 from "../../assets/images/logo-letter-black.svg";
 import video from "../../assets/video/video.mp4";
+import Examples from "../modal/modal";
 
 import "./header.scss";
 
@@ -20,7 +21,9 @@ function Header() {
             <img className="logo1" src={logo1} alt="logo" />
             <img className="logo2" src={logo2} alt="" />
           </a>
-          <button>МЕНЮ</button>
+          {/* <button></button>
+           */}
+           <Examples/>
         </div>
         <div className="bgVideo">
           <video src={video} autoPlay loop muted></video>
