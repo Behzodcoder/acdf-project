@@ -1,22 +1,34 @@
- .header {
+.header {
     width: 100%;
     height: 100%;
 
     .logo-menu {
-        width: 100%;
-        height: 100%;
+        // width: 100%;
+        // height: 100vh;
         display: flex;
         justify-content: space-between;
-        position: fixed;
+        // position: fixed;
 
         a {
-            color: #fff;
-            img {
-                color: #fff;
+            // color: #fff;
+            .logo1 {
+                // color: #fff;
                 width: 202.59px;
                 height: 125px;
                 margin-top: 30px;
                 margin-left: 20px;
+                filter: invert(1);
+                z-index: 99;
+                // position: fixed;
+            }
+            .logo2 {
+                display: none;
+                width: 202.59px;
+                height: 125px;
+                margin-top: 30px;
+                margin-left: 20px;
+                filter: invert(1);
+                // z-index: 99;
             }
         }
 
@@ -24,11 +36,17 @@
             width: 80px;
             height: 80px;
             margin-top: 40px;
-            margin-right: 45px;
+            margin-right: 100px;
             color: #fff;
             font-weight: bold;
             font-size: 15px;
-            background-color: #1C4A64;
+            background-color: #1c4a64;
+            // position: fixed;
+        }
+        button:hover {
+            opacity: 1;
+            background: #286080;
+            transition: filter 0.3s ease;
         }
     }
 
@@ -43,4 +61,4 @@
             object-fit: cover;
         }
     }
- }
+}

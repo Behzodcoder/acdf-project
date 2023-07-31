@@ -1,0 +1,74 @@
+.subscribe {
+    position: relative;
+    padding-top: 355px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 465px;
+        bottom: -102px;
+        width: 140px;
+        height: 140px;
+        background-color: black;
+    }
+
+    .subscribe-text {
+        margin-bottom: 66px;
+
+        h2 {
+            font-family: "MixtaPro-Light";
+            font-weight: normal;
+            font-size: 50px;
+            line-height: 55px;
+            text-align: left;
+            position: relative;
+            width: 768px;
+            margin: 0 auto;
+            z-index: 2;
+        }
+        .shapes {
+            position: absolute;
+            display: inline-block;
+
+            .grey {
+                padding: 0 350px;
+            }
+            .purple {
+                padding-left: 530px;
+            }
+        }
+    }
+
+    .inp {
+        // margin-bottom: 55px;
+        position: relative;
+        input {
+            width: 35%;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #0c2b3e;
+            color: #111;
+            font-family: "Inter-Light";
+            font-size: 26px;
+            margin-left: 540px;
+            margin-top: 55px;
+            padding-bottom: 4px;
+            background-color: transparent;
+        }
+
+        button {
+            background: #0c2b3e;
+            color: #fff;
+            // line-height: 19.5px;
+            letter-spacing: 1px;
+            border-color: #0c2b3e;
+            // padding: 10px 16px 8px;
+            display: inline-block;
+            margin: 8px 0;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+            padding: 7px 30px;
+            text-transform: uppercase;
+        }
+    }
+}

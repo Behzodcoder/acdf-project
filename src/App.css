@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 @font-face {
-  font-family: 'MixtaPro-light';
+  font-family: 'MixtaPro-Light';
   src: url(./assets/fonts/MixtaPro-Light.ttf);
+}
+@font-face {
+  font-family: 'MixtaPro-Regular';
+  src: url(./assets/fonts/MixtaPro-Regular.ttf);
+}
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(./assets/fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(./assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: 'Inter-Light';
+  src: url(./assets/fonts/Inter-Light.ttf);
 }
 
 *,
@@ -35,5 +52,5 @@ button {
 .container {
   width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 10px; */
 }

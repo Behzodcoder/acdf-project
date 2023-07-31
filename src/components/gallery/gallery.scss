@@ -1,0 +1,50 @@
+.gallery {
+    display: flex;
+    position: relative;
+    padding-top: 160px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    .gallery-img {
+        // padding-left: 25px;
+
+        img {
+            width: 748px;
+            height: 561px;
+            // padding: 0 10px;
+        }
+    }
+
+    .gallery-info {
+        width: 592px;
+        height: 295.12px;
+
+        h2 {
+            font-family: "MixtaPro-Regular";
+            font-size: 50px;
+            font-weight: normal;
+            line-height: 55px;
+            margin-bottom: 32px;
+            color: #111111;
+        }
+
+        .fond {
+            font-family: "Inter-Light", sans-serif;
+            font-size: 22px;
+            line-height: 28px;
+            color: #111111;
+            margin-bottom: 16px;
+        }
+
+        .readMore {
+            font-size: 18px;
+            font-family: "Inter-Regular", sans-serif;
+            line-height: 19.5px;
+            margin-top: 16px;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            text-decoration-thickness: 1px;
+            cursor: pointer;
+        }
+    }
+}
