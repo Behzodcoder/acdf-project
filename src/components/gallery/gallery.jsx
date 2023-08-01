@@ -11,8 +11,8 @@ import "./gallery.scss";
 
 function Gallery() {
   return (
-    <div className="container">
       <div className="main-gallery">
+    <div className="container">
           <div className="gallery">
             <div className="gallery-img" style={{
               backgroundImage:`url('${img1}')`

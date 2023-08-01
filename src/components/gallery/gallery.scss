@@ -1,13 +1,14 @@
 .main-gallery {
     margin-bottom: 140px;
+    background-color: #ead7d7;
+
     .gallery {
         display: flex;
         position: relative;
-        padding-top: 160px;
+        padding-top: 100%;
         justify-content: center;
         align-items: center;
         gap: 30px;
-        background-color: #ead7d7;
         .gallery-img {
             // padding-left: 25px;
             position: relative;
@@ -18,22 +19,21 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: 100%;
-            transition:  1s ease;
-            &::before{
-                content: '';
+            transition: 1s ease;
+            &::before {
+                content: "";
                 position: absolute;
                 top: 0;
                 left: 0;
                 width: 100%;
                 height: 100%;
                 background-color: rgba(13, 154, 241, 0.507);
-                transition:  1s ease;
+                transition: 1s ease;
             }
-            &:hover{
-                
+            &:hover {
                 background-size: 105%;
-                &::before{
-                    content: '';
+                &::before {
+                    content: "";
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -41,18 +41,6 @@
                     height: 100%;
                     background-color: transparent;
                 }
-            }
-            img {
-               
-                // object-fit: 100%;
-                // filter:opacity(0.5);
-                // padding: 0 10px;
-            }
-            img:hover {
-                // transform: translate(-1%, -1%);
-                // object-fit: 120%;
-                // transition: transform 1s ease;
-                // filter: none;
             }
         }
 
@@ -91,8 +79,8 @@
     }
 
     .gradient {
-        background: linear-gradient(180deg, #ead7d7 0%, rgba(234,215,215,0) 100%);
+        background: linear-gradient(180deg, #ead7d7 0%, rgba(234, 215, 215, 0) 100%);
         height: 200px;
-    width: 100%;
+        width: 100%;
     }
 }

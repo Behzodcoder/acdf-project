@@ -10,8 +10,8 @@ import "./footer.scss";
 
 function Footer() {
   return (
-    <div className="container">
     <div className="footer">
+    <div className="container">
       {/* <img src={footerbg} alt="" /> */}
       <div className="logo-social">
         <img className="footlogo" src={footlogo} alt="footerlogo" />
