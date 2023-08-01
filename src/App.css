@@ -29,6 +29,10 @@
   /* outline: none ; */
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   overflow-x: hidden;
   opacity: 0; /* устанавливаем начальную прозрачность */
@@ -62,7 +66,7 @@ button {
 }
 
 .container {
-  width: 1440px;
+  width: 1370px;
   margin: 0 auto;
   /* padding: 0 10px; */
 }
