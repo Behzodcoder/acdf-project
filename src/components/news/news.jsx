@@ -7,7 +7,8 @@ import "./news.scss";
 
 function News() {
   return (
-    <div className="container">
+    // <div className="container">
+      <div className="newss">
       <div className="news-section">
         {" "}
         {/* tovoq */}
@@ -107,13 +108,12 @@ function News() {
         </div>
       </div>
       <div className="news-section">
-        {/* {" "} */}
-        {/* gustav */}
         <div className="line"></div>
       </div>
 
       <a className="showAll">Посмотреть все</a>
-    </div>
+      </div>
+    // </div>
   );
 }
 

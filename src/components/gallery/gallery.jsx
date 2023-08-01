@@ -12,12 +12,11 @@ import "./gallery.scss";
 function Gallery() {
   return (
       <div className="main-gallery">
-    <div className="container">
+    {/* <div className="container"> */}
           <div className="gallery">
             <div className="gallery-img" style={{
               backgroundImage:`url('${img1}')`
             }}>
-              {/* <img src={img1} alt="" /> */}
             </div>
 
             <div className="gallery-info">
@@ -44,7 +43,6 @@ function Gallery() {
             <div className="gallery-img" style={{
               backgroundImage:`url('${img2}')`
             }}>
-              {/* <img src={img2} alt="" /> */}
             </div>
           </div>
 
@@ -52,7 +50,6 @@ function Gallery() {
             <div className="gallery-img" style={{
               backgroundImage:`url('${img3}')`
             }}>
-              {/* <img src={img3} alt="" /> */}
             </div>
             <div className="gallery-info">
               <h2>
@@ -82,7 +79,6 @@ function Gallery() {
             <div className="gallery-img" style={{
               backgroundImage:`url('${img4}')`
             }}>
-              {/* <img src={img4} alt="" /> */}
             </div>
           </div>
 
@@ -90,7 +86,6 @@ function Gallery() {
             <div className="gallery-img" style={{
               backgroundImage:`url('${img5}')`
             }}>
-              {/* <img src={img5} alt="" /> */}
             </div>
             <div className="gallery-info">
               <h2>Инклюзивная среда</h2>
@@ -119,7 +114,6 @@ function Gallery() {
             <div className="gallery-img" style={{
               backgroundImage:`url('${img6}')`
             }}>
-              {/* <img src={img6} alt="" /> */}
             </div>
           </div>
 
@@ -127,7 +121,6 @@ function Gallery() {
             <div className="gallery-img" style={{
               backgroundImage:`url('${img7}')`
             }}>
-              {/* <img src={img7} alt="" /> */}
             </div>
             <div className="gallery-info">
               <h2>Развитие культурного меценатства</h2>
@@ -143,7 +136,7 @@ function Gallery() {
             </div>
           </div>
           <div className="gradient"></div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

@@ -5,7 +5,7 @@ import "./subscribe.scss";
 
 function Subscribe() {
     return (
-        <div className="container">
+        // <div className="container">
             <div className="subscribe">
                 <div className="subscribe-text">
                     <h2>Подпишитесь на нашу рассылку, <br />чтобы быть постоянно в курсе</h2>
@@ -16,7 +16,7 @@ function Subscribe() {
                     <button>Подтвердить</button>
                 </div>
             </div>
-        </div>
+        // {/* </div> */}
     )
 }
 

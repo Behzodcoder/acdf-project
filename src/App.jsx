@@ -7,11 +7,16 @@ import News from './components/news/news'
 import Purpose from './components/purpose/purpose'
 import Subscribe from './components/subscribe/subscribe'
 
+
 function App() {
 
+  // const { ref, inView } = useInView({
+  //   threshold: 0
+  // });
+  
   return (
     <>
-      <Header/>
+    <Header/>
       <Purpose/>
       <News/>
       <More/>

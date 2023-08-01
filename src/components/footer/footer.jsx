@@ -11,8 +11,7 @@ import "./footer.scss";
 function Footer() {
   return (
     <div className="footer">
-    <div className="container">
-      {/* <img src={footerbg} alt="" /> */}
+    {/* <div className="container"> */}
       <div className="logo-social">
         <img className="footlogo" src={footlogo} alt="footerlogo" />
         <div className="footer-logo">
@@ -68,7 +67,7 @@ function Footer() {
       </div>
 
       
-    </div>
+    {/* </div> */}
  </div>
   );
 }

@@ -7,7 +7,7 @@ section {
     width: 80px;
     height: 80px;
     margin-top: 20px;
-    margin-right: 45px;
+    // margin-right: 110px;
     color: #fff;
     font-weight: bold;
     font-size: 15px;
@@ -35,7 +35,6 @@ section {
     }
     .closea {
       position: relative;
-      // filter: invert(1);
       .close {
         position: absolute;
         width: 29px !important;
@@ -69,6 +68,7 @@ section {
         font-family: "MixtaPro-Regular";
         font-size: 61;
         font-weight: 400;
+        margin-right: 0;
       }
       .about {
         font-size: 8vmin;
@@ -137,7 +137,6 @@ section {
         }
       }
       .langs {
-        // margin-top: 5vmin;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -147,8 +146,6 @@ section {
         top: -45px;
         gap: 30px;
         .uz {
-          // width: 37px;
-          // height: 28px;
           font-size: 23px;
           line-height: 28px;
           font-family: "Inter-Regular";
@@ -159,8 +156,6 @@ section {
           text-decoration: underline;
         }
         .ru {
-          // width: 37px;
-          // height: 28px;
           font-size: 23px;
           line-height: 28px;
           font-family: "Inter-Regular";
@@ -171,8 +166,6 @@ section {
           text-decoration: underline;
         }
         .en {
-          // width: 37px;
-          // height: 28px;
           font-size: 23px;
           line-height: 28px;
           font-family: "Inter-Regular";
@@ -191,8 +184,6 @@ section {
       position: relative;
       top: 400px;
       left: 1100px;
-
-      // background-color: aqua;
       .tg {
         width: 30px;
         height: 30px;
@@ -217,7 +208,6 @@ section {
       .youtube {
         width: 30px;
         height: 30px;
-        // margin-right: 40px;
       }
     }
   }

@@ -1,26 +1,19 @@
 .header {
-    position: fixed;
+    // position: fixed;
     top: 0;
     width: 100%;
 
     .logo-menu {
-        // width: 100%;
-        // height: 100vh;
         display: flex;
         justify-content: space-between;
-        // position: fixed;
-
         a {
-            // color: #fff;
             .logo1 {
-                // color: #fff;
                 width: 202.59px;
                 height: 125px;
                 margin-top: 30px;
-                margin-left: 40px;
+                // margin-left: -50px;
                 filter: invert(1);
                 z-index: 99;
-                // position: fixed;
             }
             .logo2 {
                 display: none;
@@ -29,39 +22,25 @@
                 margin-top: 30px;
                 margin-left: 20px;
                 filter: invert(1);
-                // z-index: 99;
             }
         }
-
-        button {
-            width: 80px;
-            height: 80px;
-            margin-top: 40px;
-            margin-right: 100px;
-            color: #fff;
-            font-weight: bold;
-            font-size: 15px;
-            background-color: #1c4a64;
-            // position: fixed;
-        }
         button:hover {
-            // opacity: 1;
             background: #286080;
             transition:  0.5s ease;
         }
     }
 
-    .bgVideo {
+}
+.bgVideo {
+    width: 100%;
+    height: 100vh;
+    video {
         width: 100%;
         height: 100vh;
-        video {
-            width: 100%;
-            height: 100vh;
-            position: absolute;
-            z-index: -1;
-            top: 0;
-            left: 0;
-            object-fit: cover;
-        }
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        object-fit: cover;
     }
 }
