@@ -5,10 +5,10 @@ import armin from "../../assets/images/armin.png";
 import gustav from "../../assets/images/gustav.png";
 import "./news.scss";
 
-function News() {
+function News({inView, sc}) {
   return (
-    <div className="container">
-      <div className="news-section">
+    <div className="container" ref={sc}>
+      <div className="news-section" inView={inView}>
         {" "}
         {/* tovoq */}
         <h3>Наши последние новости</h3>

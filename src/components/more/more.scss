@@ -7,13 +7,16 @@
     padding-top: 241px;
 
     .bgGumbaz {
-        position: absolute;
+        position: relative;
 
         .gumbaz {
-            position: relative;
-            bottom: 270px;
-            // width: 100%;
-            // height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -40%);
+            /* bottom: 103%; */
+            /* top: 38%; */
+            width: 100vw;
         }
     }
 

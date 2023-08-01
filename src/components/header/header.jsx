@@ -9,27 +9,23 @@ import "./header.scss";
 
   
 
-function Header() {
-
-  
+function Header({inView}) {
   
   return (
-    // <div className="container">
+      <>
       <div className="header">
         <div className="logo-menu">
           <a href="#">
             <img className="logo1" src={logo1} alt="logo" />
-            {/* <img className="logo2" src={logo2} alt="" /> */}
           </a>
-          {/* <button></button>
-           */}
            <Examples/>
         </div>
-        <div className="bgVideo">
-          <video src={video} autoPlay loop muted></video>
-        </div>
       </div>
-    // </div>
+      
+      <div className="bgVideo">
+       <video src={video} style={{width: '100%'}} autoPlay loop muted></video>
+      </div>
+      </>
   );
 }
 
